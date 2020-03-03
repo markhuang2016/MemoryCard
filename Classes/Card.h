@@ -35,7 +35,7 @@ public:
 
     virtual CardData* getCardData();
 
-    virtual CardData* setCardData(CardData cardData);
+    virtual void setCardData(CardData cardData);
 
 };
 

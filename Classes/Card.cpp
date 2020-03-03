@@ -102,6 +102,6 @@ CardData* Card::getCardData() {
     return &cardData;
 }
 
-CardData* Card::setCardData(CardData cardData) {
+void Card::setCardData(CardData cardData) {
     this->cardData = cardData;
 }
